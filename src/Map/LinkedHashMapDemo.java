@@ -15,7 +15,8 @@ public class LinkedHashMapDemo {
         linkedHashMap.put(5,"ae");
         linkedHashMap.put(3,"aee");
 
-        linkedHashMap.get(5);
+        linkedHashMap.get(2);
+
         Set<Map.Entry<Integer, String>> set = linkedHashMap.entrySet();
 
         for(Map.Entry<Integer, String> x : set )
@@ -24,6 +25,8 @@ public class LinkedHashMapDemo {
         }
         HashMap<String,Integer> hashMap = new HashMap<>();
         LinkedHashMap linkedHashMap1 = new LinkedHashMap(hashMap);
+
+        System.out.println(linkedHashMap);
 
     }
 }
