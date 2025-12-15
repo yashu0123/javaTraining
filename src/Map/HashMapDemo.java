@@ -26,6 +26,7 @@ public class HashMapDemo {
             System.out.println(x.getKey() + " : " + x.getValue());
 
         }
+        System.out.println(map.size());
 
     }
 }
